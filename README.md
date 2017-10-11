@@ -27,3 +27,4 @@ When the teacher check attendance by this application, it will send SMS message 
 - Ionic 3
 - Angular2+
 - Firebase
+- QR Code
