@@ -1,30 +1,26 @@
-<h2>Hybrid application development</h2>
+This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
 
-This application is term project of Hybrid application development
+## How to use this template
 
-Kwangmin Kim 5738001
+*This template does not work on its own*. The shared files for each starter are found in the [ionic2-app-base repo](https://github.com/ionic-team/ionic2-app-base).
 
-<h3>Attendance Notification</h3>
+To use this template, either create a new ionic project using the ionic node.js utility, or copy the files from this repository into the [Starter App Base](https://github.com/ionic-team/ionic2-app-base).
 
-This applcation provides notice attendance of stduent to their parents 
-When the teacher check attendance by this application, it will send SMS message to their parents .
+### With the Ionic CLI:
 
-<h3>Features </h3>
+Take the name after `ionic2-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
 
-<ul>
- <li>Users who are teacher register student information with thier parent information to this application</li>
- <li>Generate QR Code of students</li>
- <li>Users scan QR Code of students by Camera</li> 
- <li>Application supports report of each student attendance with date </li>
- <li>Application supports report of all student attendance list </li>
- </ul>
+```bash
+$ sudo npm install -g ionic cordova
+$ ionic start myTabs tabs
+```
 
+Then, to run it, cd into `myTabs` and run:
 
+```bash
+$ ionic cordova platform add ios
+$ ionic cordova run ios
+```
 
+Substitute ios for android if not on a Mac.
 
-<h3>Tech stack:</h3>
-
-- Ionic 3
-- Angular2+
-- Firebase
-- QR Code
