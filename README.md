@@ -4,7 +4,7 @@ This application is term project of Hybrid application development
 
 Kwangmin Kim 5738001
 
-<h3>Attendance Notification /h3>
+<h3>Attendance Notification</h3>
 
 This applcation provides notice attendance of stduent to their parents 
 When the teacher check attendance by this application, it will send SMS message to their parents .
