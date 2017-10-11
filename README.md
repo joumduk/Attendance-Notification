@@ -1,9 +1,25 @@
-<h2>Attendance Notofication - SMS</h2>
+<h2>Hybrid application development</h2>
 
- [Ionic Framework mobile-app]
+This application is term project of Hybrid application development
 
- This application for parents. When your children arrrived in class , you recieve SMS message to you mobile phone.
- 
+Kwangmin Kim 5738001
+
+<h3>Attendance Notification /h3>
+
+This applcation provides notice attendance of stduent to their parents 
+When the teacher check attendance by this application, it will send SMS message to their parents .
+
+<h3>Features </h3>
+
+<ul>
+ <li>Users who are teacher register student information with thier parent information to this application</li>
+ <li>Generate QR Code of students</li>
+ <li>Users scan QR Code of students by Camera</li> 
+ <li>Application supports report of each student attendance with date </li>
+ <li>Application supports report of all student attendance list </li>
+ </ul>
+
+
 
 
 <h3>Tech stack:</h3>
@@ -11,12 +27,3 @@
 - Ionic 3
 - Angular2+
 - Firebase
-<h3>Contributors:</h3>
-
-  Kwangmin Kim
-  
-<h3>Development steps:</h3>
-
-Done:
-Project setup
-Firebase integration
